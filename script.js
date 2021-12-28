@@ -1,7 +1,7 @@
 
-const square__round = document.querySelectorAll('.square__round');
+const squareRound = document.querySelectorAll('.square__round');
 
-square__round.forEach(item => {
+squareRound.forEach(item => {
     item.addEventListener('click', () => {
         if(item.style.background == 'blue'){
             item.style.background = 'red'
